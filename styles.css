@@ -1,0 +1,340 @@
+@charset "UTF-8";
+
+/*画面のスタイルシート*/
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Leelawadee UI','Avenir',YuGothic,'Yu Gothic','ヒラギノ角ゴシック','Hiragino Sans','メイリオ', Meiryo,sans-serif;
+}
+
+/*{header}のスタイルシート*/
+
+header {
+    min-width: 1080px;
+    border-bottom: 2px solid #E04343;
+    overflow: hidden;
+    height: 67px;
+}
+
+header ul{
+    margin: 11px 0;
+    padding: 0 22px;
+    height: 45px;
+    list-style: none;
+}
+
+header li {
+    float: left; 
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img.home {
+    width: 31px;
+    margin-right: 39px;
+}
+
+img.about {
+    width: 24px;
+    margin-right: 39px;
+    margin-top: 4px;
+}
+
+img.projects {
+    width: 28px;
+    margin-top: 3px;
+}
+
+header p {
+    width: 68px;
+    height: 10px;
+    margin: 0;
+    font-size: 10px;
+    line-height: 0;
+}
+
+p.text-home {
+    margin-left: 1.2px;
+}
+
+p.text-about {
+    margin-top: 3px;
+    margin-left: -2px;
+}
+
+p.text-projects {
+    margin-left: -4px;
+}
+
+/*{introduce}のスタイルシート*/
+
+.block-name {
+    position: relative;
+    min-width: 1080px;
+    height: 652px;
+    background-color: #FAF8F8;
+}
+
+.block-name ul {
+    margin: 0;
+    list-style: none;
+}
+
+.block-introduce {
+    width: 683px;
+}
+
+h1 {
+    margin: 0;
+    padding: 50px 100px 0;
+    font-size: 112px;
+    height: 220px;
+    font-weight: normal;
+    letter-spacing: 5px;
+    color: #555353;
+}
+
+.block-introduce span {
+    display: block;
+    position: relative;
+    bottom: 52px;
+}
+
+
+.block-introduce p {
+    margin: 0;
+    padding-left: 109px;
+    font-size: 24px;
+    color: #E04343;
+}
+
+p.name {
+    padding-top: 9px;
+}
+
+p.job {
+    display: block;
+    position: relative;
+    bottom: 10px;
+    word-spacing: 12px;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.block-introduce span{
+    margin: 0;
+}
+
+.block-name img {
+    position: absolute;
+    right: 25px;
+    bottom: -1px;
+}
+
+/*{About}のスタイルシート*/
+.block-main {
+    min-width: 1080px;
+}
+
+
+.block-about {
+    text-align: center;
+    background-color: #E04343;
+    color: white;
+    height: 387px;
+    min-width: 1080px;
+}
+
+h2 {
+    margin: 0;
+    padding: 23px 0 0;
+    letter-spacing: 5px;
+    font-weight: 500;
+    padding-left: 7px;
+    font-size: 27px;
+    color: black;
+}
+
+.partation {
+    font-size: 21px;
+    color: white;
+}
+
+
+.partation img {
+    width: 26px;
+    position: relative;
+    top: 4px;
+}
+
+.item-list {
+    margin: 31px 31px 11px;
+}
+
+.skills {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+}
+
+.item-list p {
+    margin: 17px 309px 11px;
+    font-size: 15px;
+}
+
+p.adress {
+    margin: 0;
+}
+
+ul.icon-list {
+    list-style: none;
+    height: 48px;
+    margin: 16px 0 44px;
+    padding: 0;
+    display: flex;
+    -webkit-justify-content: center;
+}
+
+.icon-list img {
+    width: 43px;
+    float: left;
+}
+
+img.github {
+    margin-right: 37px;
+}
+
+/*{projects}のスタイルシート*/
+
+.block-projects{
+    text-align: center;
+    height: 750px;
+    min-width: 1080px;
+}
+
+.project-list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    max-width: 1080px;
+    margin: 38px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.project-list li {
+    display: block;
+    float: left;
+    width: 442px;
+    margin-right: 152px;
+}
+ 
+.project-list li:last-child {
+    margin-right: 0;
+}
+ 
+.project-list li img {
+    width: 88%;
+}
+ 
+.project-list li span {font-size: 17px;}
+ 
+.project-list .link {
+    display: flex;
+        -webkit-justify-content: center;
+    letter-spacing: 1px;
+}
+ 
+.project-list .link a {background-color: #E04343;padding: 5px 20px;margin-right: 10px;font-size: 15px;text-decoration: none;color: white;} 
+
+.project-list li h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    margin: 20px 0 0;
+}
+
+.line {
+    margin: 0;
+    position: relative;
+    bottom: 10px;
+}
+
+.test-account {
+    height: 70px;
+    margin: 10px 0 0px;
+    font-size: 13px;
+}
+
+.test-account p{
+    margin: 0;
+}
+
+/*{contact us}のスタイルノート*/
+
+.block-contactus {
+    text-align: center;
+    height: 424px;
+    min-width: 1080px;
+    background-color: #E04343;
+}
+
+.block-contactus h2{
+    color: white;
+}
+
+.contact-list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    max-width: 1080px;
+    margin: 38px 0px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contact-list li {
+    display: block;
+    float: left;
+    width: 442px;
+    margin-right: 152px;
+}
+ 
+.contact-list li:last-child {
+    margin-right: 0;
+}
+ 
+.contact-list li img {
+    width: 88%;
+}
+ 
+.contact-list li span {font-size: 17px;}
+
+.contact-list li {
+    width: 224px;
+    height: 220px;
+    background-color: #E9EFEF;
+}
+
+.contact-list div {
+    padding-top: 34px;
+}
+
+.contact-list li img {
+    width: 14%;
+}
+
+/*スマホ用のスタイルシート*/
+
+@media screen and (max-width:767px){
+    
+}
